@@ -45,8 +45,8 @@ Press `q` to quit the webcam window.
 
 If faces aren't being recognized, the most common cause is a problem with the reference photos themselves (corrupted files or images that are too small/low quality for DeepFace to process). 
 
-Run the diagnostic script to check:
-Tools- testpics.py
+Run the diagnostic script to check: `python Tools/testpics.py`
+
 This checks every image in `known_faces/` for readability, file corruption, and minimum size requirements, and reports which files are causing issues.
 
 ## Notes
