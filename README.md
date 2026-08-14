@@ -24,7 +24,7 @@ A real-time face recognition system built with Python, OpenCV, and DeepFace. It 
 - `requirements.txt` — Python dependencies
 - `known_faces/` — Reference photos (not tracked in git)
   - `person_name/photo1.jpg`, `photo2.jpg`, etc. — one subfolder per person
-- `tools/testpics.py` — Diagnostic script that checks images for corruption/size issues
+- `Tools/testpics.py` — Diagnostic script that checks images for corruption/size issues
 
 ## Setup
 
@@ -45,7 +45,7 @@ Press `q` to quit the webcam window.
 
 If faces aren't being recognized, the most common cause is a problem with the reference photos themselves (corrupted files or images that are too small/low quality for DeepFace to process). Run the diagnostic script to check:
 
-##Tools- testpics.py
+## Tools- testpics.py
 
 This checks every image in `known_faces/` for readability, file corruption, and minimum size requirements, and reports which files are causing issues.
 
