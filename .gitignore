@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# Personal/sensitive data — don't commit real face photos
+known_faces/
+
+# DeepFace auto-downloads model weights here — large, regenerable
+.deepface/
+*.h5
+
+# OS / IDE clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / test captures
+*.log
